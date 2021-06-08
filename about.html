@@ -1,0 +1,344 @@
+<!DOCTYPE html>           
+<html lang="es"> 	
+					
+<head>
+  <title>Servicio de Envios</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+	<!----- viewport para apple device-width = ancho pantalla initial-scale es que inicia sin ningún zoom --> 
+    <!-- <link rel="iconmonstr-delivery-6" href="assets/icons/iconmonstr-delivery-6.svg"> -->
+	<!----- icono para apple y safari --> 
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <!-- Load Require CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	    <!-- iconos  -->
+    <link href="assets/css/boxicon.min.css" rel="stylesheet">
+	    <!-- tipo de letra -->
+    
+		<!-- carga CSS -->
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<!------------------------------------------------------------------ Fin del  HEAD -->
+<body>
+     
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light sticky-top bg-white shadow">
+	
+       <div class="container d-flex justify-content-between align-items-center">
+		
+            <a class="navbar-brand h1 navbar-logo" href="index.html">
+           
+                <img src="assets/icons/logo.svg"alt="Logo" class="h4">
+       
+	       <span class="text-dark h4">Envios</span><span class="text-danger h4">Flash</span></a>
+			
+			<!--	boton de hamburguesa --> 
+  	          <button class="navbar-toggler border-0" 
+				type="button" data-bs-toggle="collapse" 
+				data-bs-target="#navbar-toggler-success" 
+				aria-controls="navbarSupportedContent" 
+				aria-expanded="false" 
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon">
+				</span>
+            </button>
+		<!------------------------------------------- Opciones del Menu		-->
+		<div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between" 
+		id="navbar-toggler-success">
+		
+		<!-------collapse navbar-collapse= para agrupar y ocultar el contenido de la barra de navegación 
+		por un punto de interrupción principal.
+		flex-fill = obliga a que todos los elementos tengan el mismo tamaño de ancho
+		d-lg-flex = utilidades para crear un contenedor flexbox y transforme los elementos secundarios 
+		directos en elementos flexibles
+		-->
+  		              <div class="flex-fill mx-xl-5 mb-2">
+				<!--	  mx=para clases que establecen tanto *-lefty*-right-->
+                        <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark 
+                        ">
+					<!--   .navbar-nav para una navegación ligera y de altura completa 
+					   (incluida la compatibilidad con menús desplegables).-->
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-danger rounded-pill px-3" href="index.html">Home</a>
+						<!-- px = padding y mx es el margin 
+						rounded-pill =genera ese boton con bordes redondeados rounded-circle-->	
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-danger rounded-pill px-3" href="about.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-danger rounded-pill px-3" href="pricing.html">Precios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-outline-danger rounded-pill px-3" href="contact.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+
+<!---------------------------------------------------------Fin de las opciones del menu
+------------------------------------------------------------ Inicio de los iconos del menu-->
+                <div class="navbar align-self-center d-flex">
+                    <a class="nav-link" href="#"><i class='bx bx-bell bx-sm bx-tada-hover text-dark icon-nav'></i></a>
+                    <a class="nav-link" href="#"><i class='bx bx-cog bx-sm text-dark icon-nav'></i></a>
+                    <a class="nav-link" href="#"><i class='bx bx-user-circle bx-sm text-dark icon-nav'></i></a>
+				    <!--	https://iconify.design/icon-sets/bx/-->
+                </div>
+            </div>
+        </div>
+    </nav>
+<!----------------------------------------------------------- Fin de los iconos del menu
+
+    <!-- Close Header -->
+ <!----------------------------------------------------------- Fin del Header-->
+
+    <!-- Start Banner Hero -->
+    <section class="bg-light w-100">
+        <div class="container">
+            <div class="row d-flex align-items-center py-5">
+                <div class="col-lg-6 text-start">
+                    <h1 class="h2 py-5 typo-space-line">Sobre Nosotros</h1>
+                    <p class="light-300">
+                        Podés obtener imágenes en <a rel="nofollow" href="http://freepik.com/" target="_blank">FreePik</a> website. Lorem ipsum dolor sit amet, consectetur.
+                    </p>
+                </div>
+                <div class="banner-img col-lg-6">
+
+                    <img class="img-about" src="./assets/img/about01.svg" alt="Nosotros">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Hero -->
+ <!-- Start Aim -->
+ <section class="banner-bg bg-white py-5">
+    <div class="container my-4">
+        <div class="row text-center">
+
+            <div class="objective col-lg-4">
+                <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 bg-danger shadow-lg">
+                    <i class="display-4 bx bxs-bulb text-light"></i>
+                </div>
+                <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300">Nuestra Vision</h2>
+                <p class="light-300">
+                    Incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse commodo viverra.
+                </p>
+            </div>
+
+            <div class="objective col-lg-4 mt-sm-0 mt-4">
+                <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 bg-danger shadow-lg">
+                    <i class='display-4 bx bx-dish text-light'></i>
+                    <span class="iconify" data-icon="bx-bxs-dish" data-inline="false"></span>
+                </div>
+                <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300">Nuestra Misión</h2>
+                <p class="light-300">
+                    Eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam quis.
+                </p>
+            </div>
+
+            <div class="objective col-lg-4 mt-sm-0 mt-4">
+                <div class="objective-icon card m-auto py-4 mb-2 mb-sm-4 bg-danger shadow-lg">
+                    <i class="display-4 bx bx-trip text-light"></i>
+                </div>
+                <h2 class="objective-heading h3 mb-2 mb-sm-4 light-300">Nuestra Pasión</h2>
+                <p class="light-300">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- End Aim -->
+    <!-- Start Choice -->
+    <section class="why-us banner-bg bg-light">
+        <div class="container my-4">
+            <div class="row">
+                <div class="banner-img col-lg-5">
+                    <img src="./assets/img/about02.svg" class="rounded img-fluid" alt="About Us">
+                </div>
+                <div class="banner-content col-lg-7 align-self-end">
+                    <h2 class="h2 pb-3">¿Porqué Elegirnos?</h2>
+                    <p class="text-muted pb-5 light-300">Porque somos mucho más que una consultoría, prestamos un servicio integral a la empresa, para que el cliente no tenga que preocuparse de nada.
+Por nuestra efectividad, aseguramos resultados.
+Porque somos un equipo de profesionales que trabajamos volcados para asegurar el éxito de nuestros clientes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Choice -->
+
+   
+ <!-- Start Our Partner -->
+ <section class="bg-servicios py-3">
+    <div class="container py-5">
+        <h2 class="h2 text-white text-center py-5">Nuestros Clientes</h2>
+        <div class="row text-center">
+            <div class="col-md-3 mb-3">
+                <div class="partner-wap rounded">
+                    <!-- <a href="#"><i class='display-1 text-white bx bxs-buildings'></i></a> -->
+                    <img src="./assets/img/m1.png" alt="Nuestros Clientes" class="img-about">
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="partner-wap rounded">
+                    <!-- <a href="#"><i class='display-1 bx text-white bxs-check-shield bx-lg'></i></a> -->
+                    <img src="./assets/img/m5.png" alt="Nuestros Clientes"  class="img-about">
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="partner-wap rounded">
+                    <!-- <a href="#"><i class='display-1 text-white bx bxs-bolt-circle'></i></a> -->
+                    <img src="./assets/img/m6.png" alt="Nuestros Clientes"  class="img-about">
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="partner-wap rounded">
+                    <!-- <a href="#"><i class='display-1 text-white bx bxs-spa'></i></a> -->
+                    <img src="./assets/img/m4.png" alt="Nuestros Clientes"  class="img-about">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Our Partner-->
+    <!-- Start Contact -->
+    <section class="banner-bg bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto my-4 p-3">
+                    <form action="#" method="get"><h1 class="h2 text-center">Suscribite a nuestras novedades</h1>
+                    <div class="input-group py-3">
+                    
+                        <input name="email" type="mail" class="form-control form-control-lg rounded-pill rounded-end" id="email" placeholder="Tu Email" aria-label="Tu Email" required>
+                        <button class="btn btn-danger text-white btn-lg rounded-pill rounded-start px-lg-4" type="submit">Suscribirte</button>
+                    </div>
+                    <p class="text-center light-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua.</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
+
+
+   <!-- Start Footer -->
+   <footer class="bg-footer pt-4">
+    <div class="container">
+        <div class="row py-4">
+
+            <div class="col-lg-3 col-12 align-left">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/icons/icon02.svg"alt="Logo" class="h4" >
+                    <!-- <i class='bx bx-buildings bx-sm text-light'></i> -->
+                    <span class="text-light h4">Envios</span><span class="text-danger h4">Flash</span></a>
+                </a>
+                <p class="text-light my-lg-4 my-2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut.
+                </p>
+                <ul class="list-inline footer-icons light-300">
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="http://facebook.com/">
+                            <i class='bx bxl-facebook-square bx-md'></i>
+                        </a>
+                    </li>
+                    
+                    <li class="list-inline-item m-0">
+                        <a class="text-light" target="_blank" href="https://www.whatsapp.com/">
+                            <i class='bx bxl-whatsapp-square bx-md'></i>
+                        </a>
+                    </li>             
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                <h3 class="h4 pb-lg-3 text-light light-300">Empresa</h2>
+                    <ul class="list-unstyled text-light light-300">
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" 
+                            href="index.html">Home</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                            href="about.html">Nosotros</a>
+                        </li>
+                        
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i></i><a class="text-decoration-none text-light py-1" 
+                            href="pricing.html">Precios</a>
+                        </li>
+                        <li class="pb-2">
+                            <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                            href="contact.html">Contáctanos</a>
+                        </li>
+                    </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                <h2 class="h4 pb-lg-3 text-light light-300">Consultas</h2>
+                <ul class="list-unstyled text-light light-300">
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="#">Política de Privacidad</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="#">Preguntas frecuentes</a>
+                    </li>
+                                           
+                    
+                </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+                <h2 class="h4 pb-lg-3 text-light light-300">Atendemos en:</h2>
+                <ul class="list-unstyled text-light light-300">
+                    <li class="pb-2">
+                        <i class='bx-fw bx bx-phone bx-xs'></i><a class="text-decoration-none text-light py-1" 
+                        href="tel:010-020-0340">021-2354-4568</a>
+                    </li>
+                    <li class="pb-2">
+                        <i class='bx-fw bx bx-mail-send bx-xs'></i><a class="text-decoration-none text-light py-1"
+                        href="mailto:info@company.com">info@enviosflash.com</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="w-100 bg-dark py-3">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-lg-6 col-sm-12">
+                    <p class="text-lg-start text-center text-light light-300">
+                        © Copyright 2021 EnviosFlash. Todos los derechos reservados.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <p class="text-lg-end text-center text-light light-300">
+                        Diseñado por <a rel="sponsored" class="text-decoration-none text-light" 
+                        href="https://cursophp.com.ar/" target="_blank"><strong>CAC FullStack Miriam #2104</strong></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<!-- End Footer -->
+
+
+
+<!-- Bootstrap -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom Script -->
+<script src="assets/js/custom.js"></script>
+   
+</body>
+
+</html>
