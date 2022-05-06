@@ -1,6 +1,6 @@
 # Codo a Codo 4.0 JS-unidad03
-Demo FrontEnd de una empresa de envíos ficticia.
 Práctica de la primer parte del curso Desarrollo FullStack NodeJS. CaC4.0
+Demo FrontEnd de una empresa de envíos ficticia.
 
 Tareas a realizar:
 
