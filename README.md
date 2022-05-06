@@ -21,3 +21,6 @@ También pueden agregar datos o cambiar la fuente de datos de los íconos.
 
 IMPORTANTE: revisar que no se pierda ninguna funcionalidad y que se mantenga 
 en todos los casos, el responsive actual.
+
+---
+![](https://github.com/miriamdev1/JS-unidad03/blob/88665c4ec4cc08bf92c53d5e03a228e2d065ea9a/preview.png)
